@@ -1,0 +1,11 @@
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\bin\Debug\net9.0\Biblioteca.Domain.deps.json
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\bin\Debug\net9.0\Biblioteca.Domain.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\bin\Debug\net9.0\Biblioteca.Domain.pdb
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.AssemblyInfoInputs.cache
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.AssemblyInfo.cs
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\refint\Biblioteca.Domain.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\Biblioteca.Domain.pdb
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Domain\obj\Debug\net9.0\ref\Biblioteca.Domain.dll

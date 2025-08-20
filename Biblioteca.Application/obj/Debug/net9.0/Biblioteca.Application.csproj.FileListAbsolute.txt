@@ -1,0 +1,11 @@
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\bin\Debug\net9.0\Biblioteca.Application.deps.json
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\bin\Debug\net9.0\Biblioteca.Application.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\bin\Debug\net9.0\Biblioteca.Application.pdb
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.AssemblyInfoInputs.cache
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.AssemblyInfo.cs
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\refint\Biblioteca.Application.dll
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\Biblioteca.Application.pdb
+C:\Users\labsfiap\Desktop\cp-.NET\Biblioteca.Application\obj\Debug\net9.0\ref\Biblioteca.Application.dll

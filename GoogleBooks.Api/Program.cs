@@ -6,13 +6,9 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
-
-// Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// HttpClient com Polly para Google Books API
 builder.Services.AddHttpClient("GoogleBooks", client =>
 {
     client.BaseAddress = new Uri("https://www.googleapis.com/books/v1/");
@@ -20,12 +16,10 @@ builder.Services.AddHttpClient("GoogleBooks", client =>
 .AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromSeconds(2)))
 .AddTransientHttpErrorPolicy(p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
-// Controllers
 builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -36,6 +30,6 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapControllers(); // Mapeia os controllers
+app.MapControllers();
 
 app.Run();

@@ -173,10 +173,10 @@ Content-Type: application/json
 
 ```mermaid
 graph LR
-    MVC[Biblioteca.Mvc] -->|HTTP| API1[Biblioteca.Api (Oracle)]
-    MVC -->|HTTP| API2[GoogleBooks.Api]
-    API1 -->|EF Core| OracleDB[Oracle Database]
-    API2 -->|HTTP REST| GoogleBooks[API Pública]
+    MVC["Biblioteca.Mvc"] -->|HTTP| API1["Biblioteca.Api (Oracle)"]
+    MVC -->|HTTP| API2["GoogleBooks.Api"]
+    API1 -->|EF Core| OracleDB["Oracle Database"]
+    API2 -->|HTTP REST| GoogleBooks["API Pública"]
 ```
 
 - MVC consome **Biblioteca.Api** e **GoogleBooks.Api**  

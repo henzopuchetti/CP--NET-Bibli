@@ -11,10 +11,8 @@ namespace Biblioteca.Infrastructure
     {
         public BibliotecaDbContext CreateDbContext(string[] args)
         {
-            // Determina o caminho da API de forma relativa ao projeto atual
             var basePath = Path.Combine(Directory.GetCurrentDirectory(), "..", "Biblioteca.Api");
 
-            // Carrega appsettings.json da API
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(basePath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -22,10 +20,8 @@ namespace Biblioteca.Infrastructure
 
             var builder = new DbContextOptionsBuilder<BibliotecaDbContext>();
 
-            // Pega a connection string chamada "OracleDb" do appsettings.json
             var connectionString = configuration.GetConnectionString("OracleDb");
 
-            // Configura o DbContext para usar Oracle
             builder.UseOracle(connectionString);
 
             return new BibliotecaDbContext(builder.Options);
